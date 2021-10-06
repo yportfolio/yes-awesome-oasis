@@ -1,0 +1,37 @@
+
+.site-navigation{
+    height: 6.5rem;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    color: $color-text-primary;
+    background-color: $color-grey-light-1;
+
+    span{
+        font-size: 2.5rem;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    a{
+        text-decoration: none;
+        padding: 0 2rem 0 2rem;
+        font-size: 2rem;
+        color: $color-text-primary;
+
+        &:hover {
+            color: $color-link-hover;
+        }
+    }
+
+    ul{
+        height: 100%;
+        display: flex;
+        list-style-type: none;
+        margin-right: 2rem;
+        align-items: center;
+    }
+}

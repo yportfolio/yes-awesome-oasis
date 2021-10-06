@@ -1,0 +1,21 @@
+//This file only in charge of importing all scss file and acts as a entry point
+
+// @import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// @import "base/animations";
+@import "base/base";
+// @import "base/typography";
+// @import "base/utilities";
+
+@import "components/navigation";
+
+
+// @import "layout/footer";
+// @import "layout/grid";
+// @import "layout/header";
+// @import "layout/navigation";
+
+// @import "pages/home";
+
