@@ -42,7 +42,11 @@ const Navigation = ({ user }) => {
       <div className={`menu-content-container ${menuActive && "active"}`}>
         <ul>
           {navLinks.map((link, index) => (
-            <Link to={link.path} key={index}>
+            <Link
+              to={link.path}
+              key={index}
+              onClick={() => setMenuActive(!menuActive)}
+            >
               {link.title}
             </Link>
           ))}

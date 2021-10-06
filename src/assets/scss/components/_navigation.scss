@@ -21,6 +21,13 @@
         align-items: center;
         margin-right: 3rem;
 
+        .menu-avatar-container{
+            cursor: pointer;
+            &:hover{
+                color: $color-link-hover;
+            }
+        }
+
         .ant-avatar{
             background: $color-background;
             border: 1px solid $color-border;
@@ -73,6 +80,13 @@
             left: -30rem;
             transition: 0.2s ease left; 
             flex-direction: column-reverse;
+
+            .menu-avatar-container{
+                cursor: pointer;
+                &:hover {
+                    color: $color-link-hover;
+                }
+            }
 
             ul{
                 flex-direction: column;
