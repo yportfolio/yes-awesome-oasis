@@ -69,7 +69,7 @@
     }
 }
 
-@include respond(tab-port){
+@include respond(tab-land){
     .site-navigation{
         .menu-content-container{
             width: 30rem;

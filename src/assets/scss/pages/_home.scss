@@ -1,0 +1,23 @@
+.home{
+    h1{
+        width: 100%;
+        color: $color-text-primary;
+    }
+
+    .featured-posts-container{
+        display: flex;
+    }
+}
+
+@include respond(tab-land){
+    .home{
+        h1{
+            margin:1.5rem 0;
+        }
+    
+        .featured-posts-container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -13,25 +13,25 @@ const Navigation = ({ user }) => {
       path: "/webdev",
     },
     {
-      title: "Cloud",
-      path: "/cloud",
+      title: "CV",
+      path: "/cv",
     },
-    {
-      title: "Algorithms",
-      path: "/algos",
-    },
-    {
-      title: "Brain Hacking",
-      path: "/health",
-    },
-    {
-      title: "Login",
-      path: "/login",
-    },
-    {
-      title: "Post Viewer",
-      path: "/post",
-    },
+    // {
+    //   title: "Algorithms",
+    //   path: "/algos",
+    // },
+    // {
+    //   title: "Brain Hacking",
+    //   path: "/health",
+    // },
+    // {
+    //   title: "Login",
+    //   path: "/login",
+    // },
+    // {
+    //   title: "Post Viewer",
+    //   path: "/post",
+    // },
   ];
 
   const [menuActive, setMenuActive] = useState(false);

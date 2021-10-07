@@ -1,0 +1,59 @@
+.masonry-post{
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 20rem;
+
+    .image-text{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .image-title, .image-date, .tags-container, div{
+        // float: left;
+        // width: 100%;
+        z-index: 10;
+        // font-weight: 400;  
+    }
+
+    .image-title{
+        font-size: 2rem;
+        color: $color-white;
+        // margin-block-start: 0;
+        // margin-block-end: 1rem;
+    }
+
+    .image-date{
+        font-size: 1.4rem;
+        color: $color-grey-light-1;
+    }
+
+    .tags-container{
+        font-size: 1.4rem;
+        color: $color-white;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        .tag{
+            border-radius: 5px;
+            padding: 4px 8px;
+            margin-right: 5px;
+        }
+    }
+}
+
+@include respond(tab-land){
+    .masonry-post{
+        width: 100%;
+        margin: 10px 0;
+        height: 30rem;
+    }
+}
